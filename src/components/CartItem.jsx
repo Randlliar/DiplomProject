@@ -19,7 +19,7 @@ function CartItem({ id, name, type, size, totalPrice, totalCount, onRemove, onMi
       <div className="cart__item-img">
         <img
           className="pizza-block__image"
-          src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
+          src="https://lh3.googleusercontent.com/FWLsNIYcvAOKaUq6I5aM6rq_Y_I5p3Bh81sRnBZwj1zSq7FIJPKr5Mu4rjvZiyaq_xluFg=s113"
           alt="Pizza"
         />
       </div>

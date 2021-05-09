@@ -6,7 +6,7 @@ import { setCategory, setSortBy } from '../redux/actions/filters';
 import { fetchPizzas } from '../redux/actions/pizzas';
 import { addPizzaToCart } from '../redux/actions/cart';
 
-const categoryNames = ['Мясные', 'Вегетарианская', 'Гриль', 'Острые', 'Закрытые'];
+const categoryNames = ['Кофе', 'Чай'];
 const sortItems = [
   { name: 'популярности', type: 'popular', order: 'desc' },
   { name: 'цене', type: 'price', order: 'desc' },
@@ -53,7 +53,7 @@ function Home() {
           onClickSortType={onSelectSortType}
         />
       </div>
-      <h2 className="content__title">Все пиццы</h2>
+      <h2 className="content__title">Все напитки</h2>
       <div className="content__items">
         {isLoaded
           ? items.map((obj) => (

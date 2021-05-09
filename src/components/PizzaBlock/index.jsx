@@ -5,7 +5,7 @@ import Button from '../Button';
 import { propTypes } from 'react-bootstrap/esm/Image';
 
 function PizzaBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addedCount }) {
-  const availbaleType = ['тонкое', 'традиционное'];
+  const availbaleType = ['холодный', 'горячий'];
   const availbaleSize = [250, 350, 450];
 
   const [activeType, setActiveType] = React.useState(types[0]);
@@ -58,7 +58,7 @@ function PizzaBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza, 
                 active: activeSize === index,
                 disabled: !sizes.includes(size),
               })}>
-              {size} см.
+              {size} мл.
             </li>
           ))}
         </ul>

@@ -6,7 +6,7 @@
       "name": "Латте",
       "types": [0, 1],
       "sizes": [250, 350, 450],
-      "price": 803,
+      "price": 3.5,
       "category": 0,
       "rating": 4
     },
@@ -16,8 +16,8 @@
       "name": "Мокка",
       "types": [0],
       "sizes": [250, 350, 450],
-      "price": 245,
-      "category": 1,
+      "price": 4.5,
+      "category": 0,
       "rating": 6
     },
     {
@@ -26,8 +26,8 @@
       "name": "Капучино",
       "types": [0],
       "sizes": [250, 350, 450],
-      "price": 295,
-      "category": 1,
+      "price": 4.6,
+      "category": 0,
       "rating": 10
     },
     {
@@ -36,8 +36,8 @@
       "name": "Карамель маккиато",
       "types": [1],
       "sizes": [250, 350, 450],
-      "price": 275,
-      "category": 2,
+      "price": 5,
+      "category": 0,
       "rating": 2
     },
     {
@@ -46,8 +46,8 @@
       "name": "Флэт Уайт",
       "types": [0, 1],
       "sizes": [250, 350, 450],
-      "price": 415,
-      "category": 3,
+      "price": 3.5,
+      "category": 0,
       "rating": 8
     },
     {
@@ -56,8 +56,8 @@
       "name": "Раф",
       "types": [0],
       "sizes": [250, 350, 450],
-      "price": 580,
-      "category": 2,
+      "price": 4.8,
+      "category": 0,
       "rating": 2
     },
     {
@@ -66,7 +66,7 @@
       "name": "Черный чай",
       "types": [0, 1],
       "sizes": [250, 350, 450],
-      "price": 675,
+      "price": 2,
       "category": 1,
       "rating": 9
     },
@@ -76,8 +76,8 @@
       "name": "Зеленый чай",
       "types": [0, 1],
       "sizes": [250, 350, 450],
-      "price": 450,
-      "category": 4,
+      "price": 2,
+      "category": 1,
       "rating": 10
     },
     {
@@ -86,8 +86,8 @@
       "name": "Красный чай",
       "types": [0, 1],
       "sizes": [250, 350, 450],
-      "price": 395,
-      "category": 5,
+      "price": 2,
+      "category": 1,
       "rating": 10
     }
   ]
