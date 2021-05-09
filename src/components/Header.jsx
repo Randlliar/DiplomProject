@@ -1,6 +1,5 @@
 import Button from './Button';
 import React from 'react';
-//import logoSvg from '../assets/img/pizza-logo.svg';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -15,7 +14,7 @@ function Header() {
             <img
               width="100"
               src="https://logos.mybrandnewlogo.com/logos/AzLMN217njtQP5kkrm5J/images/logo-40r0ZDzwj9h272yWMJDpFEPr5XJ0.png"
-              alt="Pizza logo"
+              alt="Coffe logo"
             />
             <div>
               <h1>React Coffe</h1>
